@@ -24,3 +24,4 @@ ah = fits.HDUList([s])
 ah.writeto('C:/Users/99286/Desktop/214ytc13_200.fits')
 
 print(147)
+print(1235)
