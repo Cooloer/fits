@@ -22,3 +22,5 @@ for i in range(0,imgzeros.shape[0],10):
 s =fits.PrimaryHDU(imgzeros[:,276-64:276+64,144-64:144+64])
 ah = fits.HDUList([s])
 ah.writeto('C:/Users/99286/Desktop/214ytc13_200.fits')
+
+print(147)
